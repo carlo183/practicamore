@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.container{
+    width: 95%;
+    margin: 0px auto;
+}
+
+.nasa{
+    width: 100px;
+    margin-top: 25px;
+}
+
+ul{
+    list-style: none;
+}
+
+/* estilos del menu */
+
+.main{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0px;
+    
+}
+
+.main ul{
+    display: flex; 
+    
+}
+
+.main > ul > li{
+    display: block;
+    margin-right: 20px; 
+    padding-left: 30px;
+    text-transform: uppercase;
+    color: #333;
+    cursor: pointer;
+}
+
+form > label{
+    color: rgb(195, 17, 17);
+    margin-left: 278px;
+}
+
+input[type="search"]{
+    margin-left: 282px;
+    padding: 6px;
+}

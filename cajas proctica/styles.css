@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    color: brown;
+    margin-top: 27px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-spacing: 3px;
+    letter-spacing: 6px;
+    font-size: 36px;
+}
+
+.box, 
+.box-1, 
+.box-2{
+    width: 250px;
+    height: 250px;
+    /* background-color: black; */
+    /* margin-top: 35px; */
+    margin: 55px;
+    color: rgb(135, 31, 31);
+    float: left;
+}
+
+.box{
+    background-image: url("images/goku1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.box-1{
+    background-image: url("images/goku2.avif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.box-2{
+    background-image: url("images/imagenes-manga-Dragon-Ball-Super-85.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.aside{
+    width: 250px;
+    /* margin: 0px auto; */
+    margin-left: 25px;
+    padding: 6px;
+    text-align: center;
+    border: 1px solid black;
+    padding-bottom: 15px;
+}
+
+.aside .wiyet > form *{
+    display: block;
+    /* padding: 8px; */
+}
+
+input[type="text"],
+input[type="password"]
+{
+    margin-left: 42px; 
+    padding: 5px;
+}
+
+.wiyet h2{
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: rgb(205, 216, 42);
+}
+
+.aside .wiyet label{
+    padding: 6px;
+    color: brown;
+    text-transform: uppercase;
+}
+
+input[type="submit"]{
+    margin-left: 95px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 6px;
+    transition: all 500ms;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms;
+}
+
+input[type="submit"]:hover{
+    color: blueviolet;
+    box-shadow: 0pc 3px 5px black;
+}
